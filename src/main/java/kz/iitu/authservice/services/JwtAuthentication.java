@@ -18,7 +18,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
-import com.eureka.common.security.JwtConfig;
+
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import io.jsonwebtoken.Jwts;
@@ -31,7 +31,7 @@ public class JwtAuthentication extends UsernamePasswordAuthenticationFilter   {
 
     private final JwtConfig jwtConfig;
 
-    public JwtUsernameAndPasswordAuthenticationFilter(AuthenticationManager authManager, JwtConfig jwtConfig) {
+    public JwtAuthentication(AuthenticationManager authManager, JwtConfig jwtConfig) {
         this.authManager = authManager;
         this.jwtConfig = jwtConfig;
 

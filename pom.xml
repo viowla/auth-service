@@ -48,9 +48,9 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>kz.iitu</groupId>
-            <artifactId>eureka-service</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.12</version>
         </dependency>
     </dependencies>
 
