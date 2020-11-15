@@ -9,7 +9,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-
+import kz.iitu.commonservice.JwtConfig;
 import javax.servlet.http.HttpServletResponse;
 
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
